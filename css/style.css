@@ -1,0 +1,87 @@
+* {
+	margin: 10px;
+	padding: auto;
+}
+body{
+    margin: 30px;
+    padding: auto;
+    background-color: #c8baba;
+}
+header {
+    background-color: #3a3a3d;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+    font-size: x-large;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dashboard-item {
+    width: 400px;
+    height: 180px;
+    background-color: #eee;
+    border: 1px solid #95a5a6;
+    border-radius:5%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 50px;
+    transition: all 0.2s ease;
+    font-size: x-large;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+
+
+}
+
+.dashboard-item:hover {
+    transform: scale(1.2);
+    border-radius: 5%;
+    cursor: pointer;
+}
+#item1{
+    background-color: #f40404;
+}
+#item2{
+    background-color: #0007aa;
+}
+#item3{
+    background-color: #dd9f54;
+}
+#item4{
+    background-color: #ff00b8;
+}
+#item5{
+    background-color: #7d0af0;
+}
+#item6{
+    background-color: #f39d00;
+}
+.img1 {
+    margin: 30px;
+    width: 20%;
+}
+.img2 {
+    margin: 30px;
+    width: 20%;
+}
+.img3 {
+    margin: 30px;
+    width: 20%;
+}
+.img4 {
+    margin: 30px;
+    width: 20%;
+}
+.img5 {
+    margin: 30px;
+    width: 20%;
+}
+.img6 {
+    margin: 30px;
+    width: 20%;
+}
